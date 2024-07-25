@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.Main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+    max-width: 1440px;
+    max-height: 641px;
+    height: 641px;
+}
+
+
+.Content,
+.Image {
+    display: flex;
+    height: 400px;
+}
+
+.Image {
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+}
+
+.Image img {
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.Content {
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: 275px;
+    margin-left: 30px;
+    float: right;
+    background-color: hsl(0, 0%, 100%);
+    display: block;
+}
+
+h1 {
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin: 25px 0px 3px 25px;
+    letter-spacing: 04px;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: hsl(212, 21%, 14%);
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0px 50px 0px 25px;
+    line-height: 30px;
+}
+
+.Info {
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 25px 25px 3px 25px;
+    line-height: 20px;
+}
+
+.Value {
+    color: hsl(158, 36%, 37%);
+    display: inline;
+}
+
+#Current {
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: "Fraunces", serif;
+    margin: 25px 15px 3px 25px;
+}
+
+#Previous {
+    color: hsl(228, 12%, 48%);
+    font-size: 12px;
+    text-decoration: line-through;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    margin: 05px 25px 30px 0px;
+    position: relative;
+    bottom: 07px;
+}
+
+button {
+    margin: 20px 10px 25px 25px;
+    padding: 10px 64px 10px 64px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    justify-content: center;
+    align-content: center;
+    transition: ease-in 0.6s;
+}
+
+button img {
+    position: relative;
+    top: 03px;
+    margin-right: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    margin: 20px 10px 25px 23px;
+    padding: 10px 60px 10px 60px;
+    font-size: 14px;
+    transition: ease-in 0.6s;
+    background-color: hsl(158, 53%, 24%);
+    color: hsl(0, 0%, 100%);
+}
+
+footer {
+    text-align: center;
+    display: flex;
+    position: fixed;
+    left: 750px;
+    bottom: 05px;
+}
+
+.attribution {
+    color: hsl(224, 30%, 27%);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 160px;
+    margin-top: 25px;
+}
+
+.attr {
+    color: hsl(224, 30%, 27%);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 350px;
+}
+
+.attr a {
+    text-decoration: none;
+    color: hsl(158, 36%, 37%);
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(158, 36%, 37%);
+}
